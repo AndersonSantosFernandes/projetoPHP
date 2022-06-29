@@ -1,0 +1,148 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("../imagens/verde.jpg");
+    background-size:auto;
+    background-attachment: fixed;
+    font-family: 'Titillium Web', sans-serif;
+}
+header#cabecalho{
+    background-color: blue;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+input{
+    display: block;
+    width: 180px;
+    height: 20px;
+    margin: 15px auto;
+    padding: 0 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div#login{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 200px auto;
+    background-image: url("../imagens/ti02.jpg");
+    background-size:auto;
+    
+
+}
+div#cadastro{
+    width: 300px;
+    border: 1px solid black;
+    margin: 150px auto;
+    background-image: url("../imagens/ti02.jpg");
+    background-size: cover;
+
+}
+div#msgLogin{
+    width: 260px;
+    height: 40px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+div#msgCadastro{
+    width: 260px;
+    height: 40px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+div#msgLogin p a{
+    text-decoration: none;
+    color: blue;
+}
+div#msgLogin p {
+    text-decoration: none;
+    color: blue;
+}
+div.menu-bar{
+    width: 200px;
+    position: absolute;
+}
+div.menu-bar a{
+    text-decoration: none;  
+    display: block;  
+    background-color: rgb(18, 230, 159);
+    padding: 10px 20px;
+    margin-bottom: 2px;
+    color: aliceblue;
+}
+div#main{
+    width: 800px;    
+    margin: auto;
+    background-image: url("../imagens/degrade_azul.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+div#msg-admin{
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    
+}
+div#listaUsuarios{
+ width: 300px; 
+ height: auto;
+ margin: 5px 10px;
+ padding: 5px 15px;
+ background-image: url("../imagens/degrade_azul.jpg");
+ font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+div#sobreForm{
+    width: 450px;
+    padding: 10px;
+    margin: 5px auto;
+}
+iframe#frame{
+    width: 750px;
+    height: 250px;
+    margin: 20px ;
+    border: 1px solid black;
+}
+div#subform{
+    width: 400px;
+    height: 60px;
+    padding: 15px;
+    background-image: url("../imagens/degrade_azul.jpg");
+    background-size:cover;
+    margin: 15px auto;
+    text-align: center;
+}
+legend{
+    text-align: center;
+}
+fieldset.coment{
+    width: 500px;
+    margin: auto; 
+    padding: 5px;   
+}
+textarea#areaText{
+    margin: auto;
+    padding: 6px;
+}
+div#comentarios{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+div.titulo_comentario{
+    border-bottom: 1px solid blue;
+    
+}
