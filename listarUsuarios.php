@@ -2,11 +2,9 @@
     include_once("conexao.php");
     include_once("verificaLogin.php");
     include("menu.php");
-
     $sql = "SELECT * from usuarios";
     $salvar = mysqli_query($conexao, $sql);
     $linhas = mysqli_affected_rows($conexao);
-
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -26,7 +24,6 @@ table{
 border: black solid 1px;
 border-collapse: collapse;
 margin: auto;
-
 }
 table td{
 font-size:17px;
@@ -51,7 +48,6 @@ tr#titulo_tabela{
             <td>Data cadástro<td>                     
             </tr>
         <?php
-
         while($exibir = mysqli_fetch_array($salvar)){
             $nome = $exibir[1];
             $Snome = $exibir[2];
@@ -65,16 +61,11 @@ tr#titulo_tabela{
             <td>$telefone<td>
             <td>$email<td>
             <td>$admin<td>
-            <td>$data<td>
-            
-            
+            <td>$data<td>            
             </tr>";
-
         }
-
         ?>
         </table>
-    </div>
-    
+    </div>    
 </body>
 </html>
