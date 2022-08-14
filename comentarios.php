@@ -83,7 +83,7 @@
 
                 print"<div class='titulo_comentario'>$nome </div>";
                 print"$coment <br>";
-                print"$data <br><br>";
+                print"Data: $data <br><br>";
             }
         ?>
        </div>

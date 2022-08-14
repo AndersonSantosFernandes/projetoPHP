@@ -28,6 +28,6 @@ include('menu.php');
         <p>Já é usuário? Faça o login. <br> Se não, se cadastre <a href="telaCadastro.php">aqui</a></p>
     </div>
 </div>
-
+ 
 </body>
 </html>

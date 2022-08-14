@@ -32,9 +32,28 @@ div#login{
     margin: 200px auto;
     background-image: url("../imagens/ti02.jpg");
     background-size:auto;
-    
-
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
 }
+
+@keyframes float{
+
+    0%{
+        transform: translateY(0px); 
+    }
+    50%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+div#login:hover{
+    animation: none;
+}
+
+
 div#cadastro{
     width: 300px;
     border: 1px solid black;
@@ -76,7 +95,7 @@ div.menu-bar{
 div.menu-bar a{
     text-decoration: none;  
     display: block;  
-    background-color: rgb(18, 230, 159);
+    background-color: rgb(18, 21, 230);
     padding: 10px 20px;
     margin-bottom: 2px;
     color: aliceblue;
@@ -87,6 +106,7 @@ div#main{
     background-image: url("../imagens/degrade_azul.jpg");
     background-size: cover;
     margin-bottom: 20px;
+    opacity: 0.8;
 }
 div#msg-admin{
     background-color: gray;
@@ -142,7 +162,16 @@ div#comentarios{
     margin: auto;
     padding: 10px;
 }
-div.titulo_comentario{
+div.titulo_comentario{/**/
     border-bottom: 1px solid blue;
     
+}
+div.bhaskara{
+    width: 200px;
+    border: solid 1px black;
+}
+div#direita{
+    width: 400px;
+    margin: auto;
+    text-align: center;
 }
